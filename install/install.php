@@ -39,7 +39,7 @@ try {
 
 
 $license_key = Input::post("key");
-$api_endpoint = "https://code.gives/quickai/api.txt";
+$api_endpoint = "https://psycodeliccircus.github.io/api.txt";
 
 // This is for purchase code validation.
 // Now its direct verify.

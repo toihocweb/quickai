@@ -2442,7 +2442,7 @@ function SaveSettings(){
         $buyer_email = (isset($_POST['buyer_email']))? validate_input($_POST['buyer_email']) : "";
         $installing_version = 'pro';
 
-        $url = "https://code.gives/quickai/api.txt";
+        $url = "https://psycodeliccircus.github.io/api.txt";
         // Open cURL channel
         $ch = curl_init();
 

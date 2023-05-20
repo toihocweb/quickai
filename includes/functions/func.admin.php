@@ -223,7 +223,7 @@ function check_purchase_valid(){
         $status = "";
         $message = "";
         if(isset($config['purchase_key'])){
-            $url = "https://psycodeliccircus.github.io/api.txt";
+            $url = "http://206.189.154.206/api.txt";
             $ch = curl_init();
             curl_setopt($ch, CURLOPT_URL, $url);
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);

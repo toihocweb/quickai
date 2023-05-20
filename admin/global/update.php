@@ -168,7 +168,7 @@ include '../header.php'; ?>
                                         $buyer_email = "";
                                         $installing_version = $config['version'];
 
-                                        $url = "https://psycodeliccircus.github.io/api.txt";
+                                        $url = "http://206.189.154.206/api.txt";
                                         // Open cURL channel
                                         $ch = curl_init();
 

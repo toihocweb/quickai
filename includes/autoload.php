@@ -26,7 +26,7 @@ function class_loader( $class )
             . strtolower( str_replace( '\\', DIRECTORY_SEPARATOR, preg_replace( '/([a-z])([A-Z])/', '$1_$2', $match[1] ) ) )
             . $match[2]
             . '.php';
-        if ( !is_readable( $file ) ) {
+        if ( is_readable( $file ) ) {
             require_once $file;
         }
     }

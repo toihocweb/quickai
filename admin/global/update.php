@@ -168,7 +168,7 @@ include '../header.php'; ?>
                                         $buyer_email = "";
                                         $installing_version = $config['version'];
 
-                                        $url = "https://code.gives/quickai/api.txt";
+                                        $url = "https://raw.githubusercontent.com/toihocweb/quickai/master/api.txt";
                                         // Open cURL channel
                                         $ch = curl_init();
 

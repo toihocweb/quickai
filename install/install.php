@@ -39,7 +39,7 @@ try {
 
 
 $license_key = Input::post("key");
-$api_endpoint = "https://code.gives/quickai/api.txt"; //share by HoaBinh Babia.to
+$api_endpoint = "https://raw.githubusercontent.com/toihocweb/quickai/master/api.txt"; //share by HoaBinh Babia.to
 
 // This is for purchase code validation.
 // Now its direct verify.

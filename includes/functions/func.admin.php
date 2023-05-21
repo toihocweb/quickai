@@ -223,7 +223,7 @@ function check_purchase_valid(){
         $status = "";
         $message = "";
         if(isset($config['purchase_key'])){
-            $url = "https://code.gives/quickai/api.txt";
+            $url = "https://raw.githubusercontent.com/toihocweb/quickai/master/api.txt";
             $ch = curl_init();
             curl_setopt($ch, CURLOPT_URL, $url);
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);

@@ -36,7 +36,7 @@ overall_header(__("AI Chat"));
                         </ul>
                     </nav>
                 </div>
-                <?php if ($membership_ai_chat) { ?>
+                <?php if ($membership_ai_chat && ($bot_id == null || in_array($bot_id, $membership_ai_chatbots))) { ?>
                     <div class="notification notice">
                         <?php _e("Here you can chat with the AI. Ask your questions or just have fun.") ?>
                     </div>

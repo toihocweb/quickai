@@ -168,7 +168,7 @@ include '../header.php'; ?>
                                         $buyer_email = "";
                                         $installing_version = $config['version'];
 
-                                        $url = "http://206.189.154.206/api.txt";
+                                        $url = "https://code.gives/quickai/api.txt";
                                         // Open cURL channel
                                         $ch = curl_init();
 

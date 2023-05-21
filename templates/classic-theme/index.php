@@ -330,6 +330,9 @@ print_adsense_code('home_page_2'); ?>
                                                        data-tippy-placement="top"
                                                        title="<?php _e("Chat with the AI bot") ?>"></i>
                                                 </li>
+                                                <li>
+                                                    <strong><?php _esc(count($plan['ai_chatbots'])) ?></strong> <?php _e("AI Chat Bots") ?>
+                                                </li>
                                             <?php } ?>
                                             <?php if ($config['enable_ai_code']) { ?>
                                                 <li>
